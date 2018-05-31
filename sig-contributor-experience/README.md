@@ -6,26 +6,33 @@ sigs.yaml file in the project root.
 
 To understand how this file is generated, see https://git.k8s.io/community/generator/README.md
 -->
-# Contributor Experience SIG
+# Contributor Experience Special Interest Group
 
 Developing and sustaining a healthy community of contributors is critical to scaling the project and growing the ecosystem. We need to ensure our contributors are happy and productive, we need to break the commit-rate ceiling we hit in July 2015, and we need to get the monotonically growing PR merge latency and numbers of open PRs and issues under control.
 
 ## Meetings
-* Regular SIG Meeting: [Wednesdays at 9:30 PT (Pacific Time)](https://zoom.us/j/7658488911) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:30&tz=PT%20%28Pacific%20Time%29).
-  * [Meeting notes and Agenda](https://docs.google.com/document/d/1qf-02B7EOrItQgwXFxgqZ5qjW0mtfu5qkYIF1Hl4ZLI/).
-  * [Meeting recordings](https://www.youtube.com/watch?v=EMGUdOKwSns&list=PL69nYSiGNLP2x_48wbOPO0vXQgNTm_xxr).
-* Off Week Sync (Contributor Guide, Mentorship): [Wednesdays at 9:30 PT (Pacific Time)](https://zoom.us/j/873813890) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:30&tz=PT%20%28Pacific%20Time%29).
+* Regular SIG Meeting: [Wednesdays at 9:30 PT (Pacific Time)](https://zoom.us/j/7658488911) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:30&tz=PT%20%28Pacific%20Time%29).
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1qf-02B7EOrItQgwXFxgqZ5qjW0mtfu5qkYIF1Hl4ZLI/).
   * [Meeting recordings](https://www.youtube.com/watch?v=EMGUdOKwSns&list=PL69nYSiGNLP2x_48wbOPO0vXQgNTm_xxr).
 
-## Leads
-* Garrett Rodrigues (**[@grodrigues3](https://github.com/grodrigues3)**), Google
+## Leadership
+
+### Chairs
+The Chairs of the SIG run operations and processes governing the SIG.
+
 * Elsie Phillips (**[@Phillels](https://github.com/Phillels)**), CoreOS
 * Paris Pittman (**[@parispittman](https://github.com/parispittman)**), Google
 
+### Technical Leads
+The Technical Leads of the SIG establish new subprojects, decommission existing
+subprojects, and resolve cross-subproject technical issues and decisions.
+
+* Garrett Rodrigues (**[@grodrigues3](https://github.com/grodrigues3)**), Google
+* Christoph Blecker (**[@cblecker](https://github.com/cblecker)**)
+
 ## Contact
 * [Slack](https://kubernetes.slack.com/messages/sig-contribex)
-* [Mailing list](https://groups.google.com/forum/#!forum/kubernetes-wg-contribex)
+* [Mailing list](https://groups.google.com/forum/#!forum/kubernetes-sig-contribex)
 * [Open Community Issues/PRs](https://github.com/kubernetes/community/labels/sig%2Fcontributor-experience)
 
 ## Subprojects
@@ -40,9 +47,15 @@ The following subprojects are owned by sig-contributor-experience:
 - **contributors-guide**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/community/master/contributors/guide/OWNERS
+- **devstats**
+  - Owners:
+    - Phillels
 - **k8s.io**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/k8s.io/master/OWNERS
+- **mentoring**
+  - Owners:
+    - https://raw.githubusercontent.com/kubernetes/community/master/mentoring/OWNERS
 - **repo-infra**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/repo-infra/master/OWNERS

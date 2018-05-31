@@ -6,7 +6,7 @@ sigs.yaml file in the project root.
 
 To understand how this file is generated, see https://git.k8s.io/community/generator/README.md
 -->
-# API Machinery SIG
+# API Machinery Special Interest Group
 
 Covers all aspects of API server, API registration and discovery, generic API CRUD semantics, admission control, encoding/decoding, conversion, defaulting, persistence layer (etcd), OpenAPI, CustomResourceDefinition, garbage collection, and client libraries.
 
@@ -15,7 +15,11 @@ Covers all aspects of API server, API registration and discovery, generic API CR
   * [Meeting notes and Agenda](https://goo.gl/0lbiM9).
   * [Meeting recordings](https://www.youtube.com/watch?v=Lj1ScbXpnpY&list=PL69nYSiGNLP21oW3hbLyjjj4XhrwKxH2R).
 
-## Leads
+## Leadership
+
+### Chairs
+The Chairs of the SIG run operations and processes governing the SIG.
+
 * Daniel Smith (**[@lavalamp](https://github.com/lavalamp)**), Google
 * David Eads (**[@deads2k](https://github.com/deads2k)**), Red Hat
 
@@ -43,34 +47,34 @@ The following subprojects are owned by sig-api-machinery:
 - **universal-machinery**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/apimachinery/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/apimachinery/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apimachinery/OWNERS
 - **server-frameworks**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/apiserver/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/apiserver/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiserver/OWNERS
 - **server-crd**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/apiextensions-apiserver/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/apiextensions-apiserver/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/apiextensions-apiserver/OWNERS
 - **server-api-aggregation**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/kube-aggregator/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/kube-aggregator/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/kube-aggregator/OWNERS
 - **server-sdk**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/sample-apiserver/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/sample-apiserver/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/sample-apiserver/OWNERS
     - https://raw.githubusercontent.com/kubernetes/sample-controller/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/sample-controller/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/sample-controller/OWNERS
     - https://raw.githubusercontent.com/kubernetes-incubator/apiserver-builder/master/OWNERS
 - **idl-schema-client-pipeline**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/gengo/master/OWNERS
     - https://raw.githubusercontent.com/kubernetes/code-generator/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/code-generator/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/code-generator/OWNERS
     - https://raw.githubusercontent.com/kubernetes/kube-openapi/master/OWNERS
     - https://raw.githubusercontent.com/kubernetes/api/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/api/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/api/OWNERS
     - https://raw.githubusercontent.com/kubernetes-client/gen/master/OWNERS
 - **kubernetes-clients**
   - Owners:
@@ -86,7 +90,7 @@ The following subprojects are owned by sig-api-machinery:
     - https://raw.githubusercontent.com/kubernetes-client/typescript/master/OWNERS
     - https://raw.githubusercontent.com/kubernetes-incubator/client-python/master/OWNERS
     - https://raw.githubusercontent.com/kubernetes/client-go/master/OWNERS
-    - https://raw.githubusercontent.com/kubernetes/kubernetes/staging/src/k8s.io/client-go/master/OWNERS
+    - https://raw.githubusercontent.com/kubernetes/kubernetes/master/staging/src/k8s.io/client-go/OWNERS
 - **universal-utils**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/utils/master/OWNERS

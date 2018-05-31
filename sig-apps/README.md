@@ -6,7 +6,7 @@ sigs.yaml file in the project root.
 
 To understand how this file is generated, see https://git.k8s.io/community/generator/README.md
 -->
-# Apps SIG
+# Apps Special Interest Group
 
 Covers deploying and operating applications in Kubernetes. We focus on the developer and devops experience of running applications in Kubernetes. We discuss how to define and run apps in Kubernetes, demo relevant tools and projects, and discuss areas of friction that can lead to suggesting improvements or feature requests.
 
@@ -15,7 +15,11 @@ Covers deploying and operating applications in Kubernetes. We focus on the devel
   * [Meeting notes and Agenda](https://docs.google.com/document/d/1LZLBGW2wRDwAfdBNHJjFfk9CFoyZPcIYGWU7R1PQ3ng/edit#).
   * [Meeting recordings](https://www.youtube.com/watch?v=hn23Z-vL_cM&list=PL69nYSiGNLP2LMq7vznITnpd2Fk1YIZF3).
 
-## Leads
+## Leadership
+
+### Chairs
+The Chairs of the SIG run operations and processes governing the SIG.
+
 * Matt Farina (**[@mattfarina](https://github.com/mattfarina)**), Samsung SDS
 * Adnan Abdulhussein (**[@prydonius](https://github.com/prydonius)**), Bitnami
 * Kenneth Owens (**[@kow3ns](https://github.com/kow3ns)**), Google
@@ -50,7 +54,7 @@ The following subprojects are owned by sig-apps:
     - https://raw.githubusercontent.com/kubernetes-helm/community/master/OWNERS
   - Meetings:
     - Helm Developer call: [Thursdays at 9:30 PT (Pacific Time)](https://zoom.us/j/4526666954) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=9:30&tz=PT%20%28Pacific%20Time%29).
-      - [Meeting notes and Agenda](https://docs.google.com/document/d/1elWRfvH3AkHdr8pOaqyPbqSZ6ONR-l1Sb9_gapqh8ZA/edit).
+      - [Meeting notes and Agenda](https://docs.google.com/document/d/1d-6xJEx0C78csIYSPKJzRPeWaHG_8W1Hjl72OJggwdc/edit#).
 - **kompose**
   - Owners:
     - https://raw.githubusercontent.com/kubernetes/kompose/master/OWNERS

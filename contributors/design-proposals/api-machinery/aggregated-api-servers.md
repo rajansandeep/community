@@ -31,7 +31,7 @@ aggregated servers.
 * Developers should be able to write their own API server and cluster admins
   should be able to add them to their cluster, exposing new APIs at runtime. All
   of this should not require any change to the core kubernetes API server.
-* These new APIs should be seamless extension of the core kubernetes APIs (ex:
+* These new APIs should be seamless extensions of the core kubernetes APIs (ex:
   they should be operated upon via kubectl).
 
 ## Non Goals
@@ -140,7 +140,7 @@ complete user information, including user, groups, and "extra" for backing API s
 
 Each API server is responsible for storing their resources. They can have their
 own etcd or can use kubernetes server's etcd using [third party
-resources](../design-proposals/api-machinery/extending-api.md#adding-custom-resources-to-the-kubernetes-api-server).
+resources](extending-api.md#adding-custom-resources-to-the-kubernetes-api-server).
 
 ### Health check
 

@@ -21,9 +21,10 @@ aliases:
     - kris-nova
     - countspongebob
   sig-azure-leads:
-    - slack
+    - justaugustus
+    - shubheksha
+    - khenidak
     - colemickens
-    - jdumars
   sig-big-data-leads:
     - foxish
     - erikerlandson
@@ -40,15 +41,20 @@ aliases:
     - zehicle
     - jdumars
   sig-contributor-experience-leads:
-    - grodrigues3
     - Phillels
     - parispittman
+    - grodrigues3
+    - cblecker
   sig-docs-leads:
     - zacharysarah
     - chenopis
     - jaredbhatti
   sig-gcp-leads:
     - abgworrall
+  sig-ibmcloud-leads:
+    - khahmed
+    - rtheis
+    - spzala
   sig-instrumentation-leads:
     - piosz
     - brancz
@@ -62,9 +68,6 @@ aliases:
   sig-node-leads:
     - dchen1107
     - derekwaynecarr
-  sig-on-premise-leads:
-    - marcoceppi
-    - dghubble
   sig-openstack-leads:
     - hogepodge
     - dklyle
@@ -81,7 +84,7 @@ aliases:
     - countspongebob
   sig-scheduling-leads:
     - bsalamat
-    - timothysc
+    - k82cn
   sig-service-catalog-leads:
     - pmorie
     - arschles
@@ -98,12 +101,18 @@ aliases:
   sig-ui-leads:
     - danielromlein
     - floreks
+  sig-vmware-leads:
+    - frapposelli
+    - cantbewong
   sig-windows-leads:
     - michmike
+    - patricklang
   wg-app-def-leads:
     - ant31
     - bryanl
     - garethr
+  wg-apply-leads:
+    - lavalamp
   wg-cloud-provider-leads:
     - wlan0
     - jagosan
@@ -119,6 +128,8 @@ aliases:
   wg-machine-learning-leads:
     - vishh
     - kow3ns
+    - balajismaniam
+    - ConnorDoyle
   wg-multitenancy-leads:
     - davidopp
     - jessfraz
@@ -132,5 +143,18 @@ aliases:
     - vishh
     - derekwaynecarr
 ## BEGIN CUSTOM CONTENT
-
+  steering-committee:
+    - bgrant0607
+    - brendanburns
+    - derekwaynecarr
+    - jbeda
+    - michelleN
+    - philips
+    - pwittrock
+    - quinton-hoole
+    - sarahnovotny
+    - smarterclayton
+    - spiffxp
+    - thockin
+    - timothysc
 ## END CUSTOM CONTENT
